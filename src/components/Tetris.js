@@ -9,8 +9,6 @@ import Display from './Display';
 import StartButton from './StartButton';
 
 const Tetris = () => {
-
-
     return (
         <StyledTetrisWrapper>
             <StyledTetris>
@@ -25,7 +23,7 @@ const Tetris = () => {
                 </aside>
             </StyledTetris>
         </StyledTetrisWrapper>
-    )
-}
+    );
+};
 
 export default Tetris;
